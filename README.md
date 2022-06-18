@@ -1,6 +1,7 @@
 # peptide-avpdb-ml
 
 ## References
+- [Peptide Nomenclature Guide](https://www.tocris.com/resources/peptide-nomenclature-guide)
 - [Machine learning multi-classifiers for peptide classification](https://link.springer.com/article/10.1007/s00521-007-0170-2)
 - [Machine learning for HIV-1 protease cleavage site prediction](https://www.sciencedirect.com/science/article/abs/pii/S0167865506000717)
 - [A Vectorized Sequence-couplingModel for Predicting HIV Protease
