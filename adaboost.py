@@ -143,6 +143,7 @@ def predict_adaboost(boost, X):
     for index, x in X.iterrows():
         predicted_value = 0
         for b in boost:
+            # realizando a predição do preditor 'b'
             prediction = 0
             alpha = b['alpha']
             if b["TRUE"]:
@@ -154,6 +155,8 @@ def predict_adaboost(boost, X):
                 value = b['value']
                 x_value = x[col]
                 prediction = 1 if x_value == value else -1
+            # somando a predição do preditor 'b' ponderada pelo seu valor 'alpha'
             predicted_value = predicted_value + (prediction * alpha)
+        # validando se devemos retornar 0 ou 1 baseado no sinal da predição final
         y.append(1 if predicted_value > 0 else 0)
     return y
