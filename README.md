@@ -6,8 +6,11 @@
 |**Matrícula**|2021708475|
 |**Email**|lmouraveloso@gmail.com|
 
+## Vídeo de apresentação
+
+O [vídeo de apresentação do trabalho](https://youtu.be/fSDangR57-4) pode ser acessado em https://youtu.be/fSDangR57-4.
+
 ## Arquivos
-- `apresentação do trabalho.mp4` vídeo de apresentação do trabalho.
 - `peptide-ml.ipynb` *notebook* contendo o trabalho desenvolvido.
 - `AVPdb.csv` banco de dados utilizado.
 
